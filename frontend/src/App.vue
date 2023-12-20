@@ -32,7 +32,7 @@ store.generations = generateFilenames(30);
           <el-col
             v-for="(generation, _) in store.generations"
             :key="generation"
-            :span="8"
+            :span="24"
           >
             <el-card :body-style="{ padding: '0px' }">
               <img
