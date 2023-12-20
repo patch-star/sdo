@@ -24,10 +24,17 @@ store.generations = generateFilenames(30);
     <el-container>
 
       <el-header class="header">
-        <span>SERIOUS DANCERS ONLY</span>
+          <span>SERIOUS DANCERS ONLY</span>
       </el-header>
 
       <el-main class="gallery">
+        <div class="centered-container">
+          <audio controls>
+            <source src="sdo.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <br/>
+        <br/>
         <el-row>
           <el-col
             v-for="(generation, _) in store.generations"
@@ -100,6 +107,13 @@ body {
 .image {
   width: 100%;
   display: block;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 </style>
 
