@@ -30,7 +30,7 @@ store.generations = generateFilenames(30);
       <el-main class="gallery">
         <div class="centered-container">
           <audio controls>
-            <source src="sdo.mp3" type="audio/mpeg">
+            <source src="https://github.com/patch-star/sdo/raw/main/frontend/public/sdo.mp3" type="audio/mpeg">
           </audio>
         </div>
         <br/>
