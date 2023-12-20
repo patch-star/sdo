@@ -59,6 +59,7 @@ store.generations = generateFilenames(30);
 body {
   font-family: 'Martian Mono', monospace;
   font-weight: 900;
+  background-color: #ffb6c1;
 }
 
 .header {
